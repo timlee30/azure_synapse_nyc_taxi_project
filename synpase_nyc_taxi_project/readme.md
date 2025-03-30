@@ -13,17 +13,18 @@ This pipeline orchestrates the complete data flow, ensuring data integrity and e
 ### 2. Pipeline for Gold Table Aggregation
 This pipeline aggregates data for gold tables to optimize Power BI reporting and analytics.
 
-![Gold Table Aggregation Pipeline](pipeline for gold table aggression .png)
+![Gold Table Aggregation Pipeline](pipeline_for_gold_table_aggression.png)
 
 ### 3. Pipeline Notebook for Aggregating Trip Data (Green Taxis)
 This notebook processes and aggregates trip data for green taxis, applying necessary transformations.
 
-![Trip Data Aggregation](pipeline notebook for aggregating trip_data_green.png)
+![Trip Data Aggregation](pipeline_notebook_for_aggregating_trip_data_green.png)
 
 ### 4. Pipeline for Each Silver Table
 A dedicated pipeline handles the transformation and loading of individual silver tables.
 
-![Silver Table Pipeline](pipleline for each silver table.png)
+![Silver Table Pipeline](pipeline_for_each_silver_table.png)
+
 
 ### 5. Pipeline for Transaction Silver Table
 This pipeline processes transactional data for silver tables, ensuring structured and clean data.
